@@ -42,6 +42,7 @@ struct Cell: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20){
             Text(data.title).font(.subheadline)
+            
         }
     }
 }
